@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+h1, h2, h3, h4, h5{
+    font-family: "Montserrat";
+}
+
+p{
+    font-family: "Fira Sans";
+}
+
+main,header{
+   background-color: rgba(242, 236, 206, 0.4);
+}
+
+h2,
+p{
+    color: white;
+    
+}
+ 
+hr{
+    width: 100%;
+    display: flex;
+    justify-items: auto;
+    align-items: center;
+    color: white;
+}
+
+main,
+section {
+    width: 100%;
+}
+
+
+
+/* Formatação Header */
+
+
+
+header h1{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 22px;
+    
+}
+
+.barraPesquisa{
+    width: 400px;
+}
+
+
+
+/* Formatação do Banner */
+
+
+
+
+/* Formatação de Cards */
+
+.card{
+    border: none;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card h5{
+    font-size:1.4rem;
+    font-weight:600;
+}
+
+.card p{
+    font-size: 1rem;
+    font-weight: light;
+}
+.card-body {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Formatação Das Categoria */
+.categorias{
+    background-color: #735340;
+}
+
+
+.categoria{
+    background: url(/img/guitar.jpg) no-repeat center;
+    background-size: cover;
+    width: 30%;
+}
+
+.categoria::after{
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.7);
+    content: "";
+    position:-ms-page;
+    top: 0;
+    bottom: 0;
+    right: 0; 
+    left: 0;
+}
+
+.categoria .teste{
+    width: 100%;
+    position: relative;
+}
+
+
+
+
+
+/* Formatação do footer */
+
+footer {
+    background-color: #ccc;
+}
+
+
+footer h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+footer p{
+    font-weight:light;
+}
+
+a{
+    text-decoration: none;
+}
+
+.simbols{
+    color: aqua;
+}
+
+
+
+
+
+button{
+
+    width: 400px;
+    padding: 15px;
+    border-radius: 50px;
+    border:none;
+    margin: 4px;
+    transition: transform 200ms ease-in-out;
+}
+button:hover {
+    transform: scale(1.06);
+}
+
+
+
+.btn-perfil{
+    color: none;
+    border: none;
+    width: 50px;
+}
+
+#button
+{
+    width: 400px;
+    border-radius: 5px;
+}
+label,
+input{
+    padding: 9px;
+}
+
+
+/* style CSS do login  */
+#login a{
+    text-decoration: none;
+    color:#393939;
+ 
+}
+.text-link a {
+    text-decoration: underline !important ;
+    color: #ccc !important;
+
+}
+
+/* pagina cadastro */
+#cadastro,
+label,
+input
+{
+    width: 100%;
+    padding:10px ;
+    color: #fff;
+}
+#cadastro button{
+    width: 50%;
+    
+}
+#checkBox{
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+/* Animações */
+header div h1{
+    position: relative;
+    transition: all 500ms ease-in-out;      
+}
+
+header div h1:hover{
+    /* animation: move 500ms ease-out ; */
+    position: relative;   
+    transform: translateX(1rem)
+ 
+}
+
+
+
+/* @keyframes move {
+    0%{
+        transform: translateX(0)
+    }
+    100%{
+        transform: translateX(calc(100% - 80%));
+    }
+} */
+
+#categorias img {
+    width: 250px;
+   
+}
+#titulo {
+    padding: 30px;
+}
+
+
+.cardContainer{
+    margin: 150px 0px 150px 0px ;
+}
+
+/* Formatação da pagina de contato */
+
+.mainContato {
+    padding-top: 300px;
+    min-height: 1000px;
+}
