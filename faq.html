@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zene</title>
+    <link rel="icon" href="/img/logo_front.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="img/front-log.png" width="65" alt=""></a>
+                <form class="d-flex" role="search">
+                    <input class="barraPesquisa form-control me-2" type="search" placeholder="Search"
+                        aria-label="Search">
+                </form>
+                <div class="d-flex justify-content-end ">
+                    <a href="chat.html" class="text-dark me-4">
+                        <h1 class="teste_anime">Chat</h1>
+                    </a>
+                    <div class="dropdown d-flex align-items-center">
+
+                        <button class="btn btn-perfil dropdown-toggle text-white" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="img/Icon.png " class="text-white" width="40" alt="" srcset="">
+                        </button>
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item ">
+                                    <div type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                        Cadastre-se</div>
+                                </a></li>
+                            <li><a class="dropdown-item">
+                                    <div type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        Entrar</div>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+   <main class="mainFaq">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h1 class="fw-bold text-center">Perguntas Frequentes</h1>
+                    <div class="faq">
+                      <input class="question" type="checkbox" id="question1">
+                      <label for="question1">O que é o Zene?</label>
+                      <div class="answer">Zene é um serviço inovador para músicos e contratantes. Criamos um ambiente onde facilitamos o contato entre essas duas partes de maneira segura.</div>
+                    </div>
+                    
+                    <div class="faq">
+                      <input class="question" type="checkbox" id="question2">
+                      <label for="question2">Como posso divulgar meu trabalho e fazer parte da comunidade?</label>
+                      <div class="answer">Basta apenas criar o seu perfil com suas informações corretas e já estará pronto para acessar o nosso serviço.</div>
+                    </div>
+                    
+                    <div class="faq">
+                      <input class="question" type="checkbox" id="question2">
+                      <label for="question2">Como posso aparecer nos mais populares?</label>
+                      <div class="answer">Para aparecer nos mais populares, seu perfil precisará ser um dos mais requisitados da nossa plataforma.</div>
+                    </div>
+                    
+                    <div class="faq">
+                      <input class="question" type="checkbox" id="question3">
+                      <label for="question3">Como farei os pagamentos?</label>
+                      <div class="answer">No nosso site já existe uma aba com as opções de pagamento mais populares.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </main>
+
+    <footer>
+        <section  class="bg-black ">
+          <div class="container py-1 text-light  d-flex justify-content-around    ">
+            <div class="mt-2 ">
+              <h1 class="#">Sobre nós</h1>
+              <a href="pagContato.html">
+                <p>Contato</p>
+              </a>
+              <a href="#">
+                <p>Quem somos</p>
+              </a>
+            </div>
+            <div class="mt-2">
+    
+              <h1>Ajuda</h1>
+              <a href="#">
+                <p>FAQ</p>
+              </a>
+              <a href="#">
+                <p>Suporte</p>
+              </a>
+            </div>
+            <div class="mt-2">
+              <h1>Redes Sociais</h1>
+              <div class="  d-flex justify-content-center ">
+                <div class="me-3">
+                  <a href="#"><i class="bi bi-instagram simbols"></i></a>
+                  <a href="#"><i class="bi bi-twitter-x simbols"></i></a>
+                  <a href="#"><i class="bi bi-facebook simbols"></i></a>
+                  <a href="#"><i class="bi bi-linkedin simbols"></i></a>
+                </div>
+              </div>
+    
+            </div>
+            
+          </div>
+            <hr>
+          <div class="container  text-center">
+            <span class="text-white">Todos os direitos reservados | 2024 <i class="bi bi-c-circle"></i></span>
+            
+          </div>
+        </section>
+      </footer>
+    
+    
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg ">
+            <div class="modal-content bg-dark">
+                <div class="modal-header">
+                    <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <section id="login" class="container d-grid justify-content-center align-items-center">
+                        <h2 class="p-3 ">Faça seu login na Zene</h2>
+                        <div class="d-grid">
+                            <button><a href="https://www.google.com/gmail/about/"><i class="bi bi-google"></i> Continuar
+                                    com o
+                                    Google</a></button>
+                            <button><a href="https://pt-br.facebook.com/login/device-based/regular/login/"><i
+                                        class="bi bi-facebook"></i> Continuar com o Facebook</a></button>
+                            <button><a href="https://appleid.apple.com/"><i class="bi bi-apple"></i> Continuar com a
+                                    Apple</a></button>
+                            <button><a href="/cadastro.html"> Continuar com o seu número</a></button>
+                        </div>
+                        <div>
+                            <form id="button" class=" text-white fw-bold ">
+
+                                <div class="row">
+                                    <label for="">Email ou nome de usuário</label>
+                                    <input type="email" placeholder="Email ou nome de usuário" required>
+                                </div>
+
+                                <div class="row">
+                                    <label for="">Senha</label>
+                                    <input id="senha" type="password" placeholder="Senha">
+                                    <i id="btn-senha" onclick="mostrarSenha()"></i>
+                                </div>
+                                <div class="form-check form-switch">
+                                    <input type="checkbox" class="form-check-input">
+                                    <label class="form-check-label">Lembrar de mim</label>
+                                </div>
+                                <div>
+                                    <button type="submit">Conecte-se</button>
+                                </div>
+
+                            </form>
+
+                            <div class="text-center pt-4 text-link">
+                                <a href="#" class="">Esqueceu sua senha?</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="text-center py-4">
+                            <p>Não tem uma conta?</p>
+                            <a href="/cadastro.html"> Inscreva-se na Zene.</a>
+                        </div>
+
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 
+ Button trigger modal 
+  
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Launch static backdrop modal
+  </button> -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content bg-dark ">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 text-white" id="staticBackdropLabel">Cadastre-se</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <section id="cadastro" class="container">
+                        <form class=" fw-bold">
+                            <div>
+                                <label for="">Nome Completo:</label>
+                                <input type="text" placeholder="Nome Completo">
+                            </div>
+                            <div>
+                                <label for="">Telefone:</label>
+                                <input type="text" placeholder="(19)">
+                            </div>
+                            <div>
+                                <label for="">E-mail:</label>
+                                <input type="email" placeholder="E-mail">
+                            </div>
+                            <div>
+                                <label for="">Senha:</label>
+                                <input type="text" placeholder="Senha">
+                            </div>
+                            <div class="form-check form-switch">
+                                <input type="checkbox" class="form-check-input">
+                                <label class="form-check-label">Lembrar de mim</label>
+                            </div>
+                            <div class="">
+                                <button type="submit" class="btn btn-warning">Cadastre-se</button>
+                            </div>
+                        </form>
+                    </section>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -2,25 +2,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-h1, h2, h3, h4, h5{
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: "Montserrat";
 }
 
-p{
+p {
     font-family: "Fira Sans";
 }
 
-main,header{
-   background-color: rgba(242, 236, 206, 0.4);
+main,
+header {
+    background-color: rgba(242, 236, 206, 0.4);
 }
 
 h2,
-p{
+p {
     color: white;
-    
+
 }
- 
-hr{
+
+hr {
     width: 100%;
     display: flex;
     justify-items: auto;
@@ -39,14 +44,14 @@ section {
 
 
 
-header h1{
+header h1 {
     font-size: 1rem;
     font-weight: bold;
     margin-top: 22px;
-    
+
 }
 
-.barraPesquisa{
+.barraPesquisa {
     width: 400px;
 }
 
@@ -59,51 +64,54 @@ header h1{
 
 /* Formatação de Cards */
 
-.card{
+.card {
     border: none;
 }
 
-.card img{
+.card img {
     width: 100%;
 }
 
-.card h5{
-    font-size:1.4rem;
-    font-weight:600;
+.card h5 {
+    font-size: 1.4rem;
+    font-weight: 600;
 }
 
-.card p{
+.card p {
     font-size: 1rem;
     font-weight: light;
 }
+
 .card-body {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Formatação Das Categoria */
-.categorias{
-    background-color: #735340;
+.categorias {
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
+.botaoCard{
+    background-color: rgba(242, 236, 206, 0.8);
+    color: #000;
+}
 
-.categoria{
+.botaoCard:hover{
+    background-color: #000;
+    color: rgba(242, 236, 206, 0.8);
+}
+
+.categoria {
     background: url(/img/guitar.jpg) no-repeat center;
     background-size: cover;
     width: 30%;
+    margin-right: 20px;
+    margin-top: 20px;
 }
 
-.categoria::after{
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.7);
-    content: "";
-    position:-ms-page;
-    top: 0;
-    bottom: 0;
-    right: 0; 
-    left: 0;
-}
 
-.categoria .teste{
+
+.categoria .teste {
     width: 100%;
     position: relative;
 }
@@ -119,20 +127,20 @@ footer {
 }
 
 
-footer h1{
+footer h1 {
     font-size: 2rem;
     font-weight: bold;
 }
 
-footer p{
-    font-weight:light;
+footer p {
+    font-weight: light;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.simbols{
+.simbols {
     color: aqua;
 }
 
@@ -140,46 +148,48 @@ a{
 
 
 
-button{
+button {
 
     width: 400px;
     padding: 15px;
     border-radius: 50px;
-    border:none;
+    border: none;
     margin: 4px;
     transition: transform 200ms ease-in-out;
 }
+
 button:hover {
     transform: scale(1.06);
 }
 
 
 
-.btn-perfil{
+.btn-perfil {
     color: none;
     border: none;
     width: 50px;
 }
 
-#button
-{
+#button {
     width: 400px;
     border-radius: 5px;
 }
+
 label,
-input{
+input {
     padding: 9px;
 }
 
 
 /* style CSS do login  */
-#login a{
+#login a {
     text-decoration: none;
-    color:#393939;
- 
+    color: #393939;
+
 }
+
 .text-link a {
-    text-decoration: underline !important ;
+    text-decoration: underline !important;
     color: #ccc !important;
 
 }
@@ -187,17 +197,18 @@ input{
 /* pagina cadastro */
 #cadastro,
 label,
-input
-{
+input {
     width: 100%;
-    padding:10px ;
+    padding: 10px;
     color: #fff;
 }
-#cadastro button{
+
+#cadastro button {
     width: 50%;
-    
+
 }
-#checkBox{
+
+#checkBox {
     display: flex;
     align-items: center;
 
@@ -206,16 +217,15 @@ input
 
 
 /* Animações */
-header div h1{
+header div h1 {
     position: relative;
-    transition: all 500ms ease-in-out;      
+    transition: all 500ms ease-in-out;
 }
 
-header div h1:hover{
+header div h1:hover {
     /* animation: move 500ms ease-out ; */
-    position: relative;   
+    position: relative;
     transform: translateX(1rem)
- 
 }
 
 
@@ -231,15 +241,16 @@ header div h1:hover{
 
 #categorias img {
     width: 250px;
-   
+
 }
+
 #titulo {
     padding: 30px;
 }
 
 
-.cardContainer{
-    margin: 150px 0px 150px 0px ;
+.cardContainer {
+    margin: 150px 0px 150px 0px;
 }
 
 /* Formatação da pagina de contato */
@@ -247,4 +258,69 @@ header div h1:hover{
 .mainContato {
     padding-top: 300px;
     min-height: 1000px;
+}
+
+/* Formatação da pag Quem somos */
+
+.mainQuemSomos {
+    min-height: 900px;
+}
+
+.mainQuemSomos button {
+    position: relative;
+    transition: all 350ms ease-in-out;
+    background: none;
+    color: #000;
+}
+
+.mainQuemSomos button:hover {
+    position: relative;
+    color: #fff;
+    background: #000;
+    transform: translatey(0.5rem);
+    text-decoration: underline;
+}
+
+/* Formatação da pag FAQ */
+
+.mainFaq{
+    min-height: 900px;
+}
+
+.faq {
+    margin-bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.faq label {
+    color: #000;
+    font-weight: bold;
+}
+
+.question {
+    display: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+}
+
+.answer {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.question:checked {
+    position: relative;
+
+}
+
+.question:checked~.answer {
+    display: block;
+    position: relative;
+
 }
