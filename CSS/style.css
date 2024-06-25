@@ -55,6 +55,25 @@ header h1 {
     width: 400px;
 }
 
+/* Formatação o main */
+.textoMain{
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+.textoMain button{
+    position: relative;
+    transition: all 350ms ease-in-out;
+    background: none;
+    color: #000;
+}
+
+.textoMain button:hover{
+    color: #fff;
+    background-color: #000;
+    transform: translateY(.5rem);
+    text-decoration: underline;
+}
 
 
 /* Formatação do Banner */
@@ -141,7 +160,7 @@ a {
 }
 
 .simbols {
-    color: aqua;
+    color: #000;
 }
 
 
