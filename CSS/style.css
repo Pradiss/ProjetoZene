@@ -55,7 +55,7 @@ header h1 {
     width: 400px;
 }
 
-/* Formatação o main */
+/* Formatação do main */
 .textoMain{
     padding-top: 300px;
     padding-bottom: 300px;
@@ -136,6 +136,11 @@ header h1 {
 }
 
 
+/* Formatação do quem somos */
+.contatoTexto{
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
 
 
 
