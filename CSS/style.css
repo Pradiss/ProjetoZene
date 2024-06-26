@@ -101,6 +101,12 @@ header h1 {
     font-weight: light;
 }
 
+.flexCard{
+    display: flex;
+    justify-content: center;
+}
+
+
 .card-body {
     background-color: rgba(0, 0, 0, 0.8);
 }
@@ -254,14 +260,6 @@ header div h1:hover {
 
 
 
-/* @keyframes move {
-    0%{
-        transform: translateX(0)
-    }
-    100%{
-        transform: translateX(calc(100% - 80%));
-    }
-} */
 
 #categorias img {
     width: 250px;
@@ -347,4 +345,16 @@ header div h1:hover {
     display: block;
     position: relative;
 
+}
+
+
+@media screen and (max-width: 768px) {
+.card{
+    width: 13rem !important;
+}
+.card-title{
+    padding: 0px 0px 5px 0px !important;
+    margin: 0px 0px;
+    
+}
 }
