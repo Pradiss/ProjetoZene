@@ -3,6 +3,10 @@
 
 
 
+strong{
+    color: #FFFC52;
+}
+
 .teste{
     color: #FFFC52;
 }
@@ -76,12 +80,14 @@ header h1 {
     position: relative;
     transition: all 350ms ease-in-out;
     background: none;
-    color: #000;
+    color: #fff;
+    width: 450px;
 }
 
 .textoMain button:hover{
-    color: #fff;
-    background-color: #000;
+    color: #000;
+    background-color: #FFFC52;
+    font-weight:bolder;
     transform: translateY(.5rem);
     text-decoration: underline;
 }
