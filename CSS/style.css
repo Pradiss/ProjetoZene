@@ -1,0 +1,589 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+}
+strong{
+    color: #FFFC52;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Montserrat";
+}
+
+p {
+    font-family: "Fira Sans";
+}
+ 
+#head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+hr {
+    width: 100%;
+    display: flex;
+    justify-items: auto;
+    align-items: center;
+    color: white;
+}
+
+
+#btnn{
+    width: 70px;
+}
+
+/* Formatação Header */
+
+.barraPesquisa {
+    width: 400px;
+    
+}
+
+/* Formatação o main */
+.textoMain{
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background: url(/img/background.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.textoMain button{
+    position: relative;
+    transition: all 350ms ease-in-out;
+    background: none;
+    color: #fff;
+    width: 350px;
+    background-color: rgba(242, 236, 206, 0.1);
+    
+    
+}
+
+.textoMain button:hover{
+    color: #000;
+    background-color: #FFFC52;
+    font-weight:bolder;
+    transform: translateY(.5rem);
+    text-decoration: underline;
+}
+/* Formatação do Banner */
+
+
+
+
+/* Formatação de Cards */
+
+.card {
+    border: none;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h5 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.card p {
+    font-size: 1rem;
+    font-weight: light;
+}
+
+.card-body {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Formatação Das Categoria */
+.categorias {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.botaoCard{
+    background-color: rgba(242, 236, 206, 0.8);
+    color: #000;
+}
+
+.botaoCard:hover{
+    background-color: #000;
+    color: rgba(242, 236, 206, 0.8);
+}
+
+#categoria {
+    background: url(/img/guitar.jpg) no-repeat center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    margin-right: 20px;
+    margin-top: 20px;
+    
+    
+}
+
+
+
+
+
+/* Formatação do footer */
+
+footer {
+    background-color: #ccc;
+}
+
+
+footer h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+footer p {
+    font-weight: light;
+}
+
+a {
+    text-decoration: none;
+}
+
+.simbols {
+    color: #000;
+}
+
+
+#btnn{
+
+    width: 100px;
+}
+
+button {
+
+    width: 400px;
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    margin: 4px;
+    transition: transform 200ms ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.06);
+}
+
+
+
+.btn-perfil {
+    color: none;
+    border: none;
+    width: 50px;
+}
+
+#button {
+    width: 400px;
+    border-radius: 5px;
+}
+
+label,
+input {
+    padding: 9px;
+}
+
+
+/* style CSS do login  */
+#login a {
+    text-decoration: none;
+    color: #393939;
+
+}
+
+.text-link a {
+    text-decoration: underline !important;
+    color: #ccc !important;
+
+}
+
+/* pagina cadastro */
+#cadastro,
+label,
+input {
+    width: 100%;
+    padding: 10px;
+}
+#cadastro{
+    color: #fff;
+}
+
+#cadastro button {
+    width: 50%;
+
+}
+
+
+/* Animações */
+header div h1 {
+    position: relative;
+    transition: all 500ms ease-in-out;
+}
+
+header div h1:hover {
+    /* animation: move 500ms ease-out ; */
+    position: relative;
+    transform: translateX(1rem)
+}
+
+
+
+/* @keyframes move {
+    0%{
+        transform: translateX(0)
+    }
+    100%{
+        transform: translateX(calc(100% - 80%));
+    }
+} */
+
+#categorias img {
+    width: 250px;
+
+}
+
+#titulo {
+    padding: 30px;
+}
+
+
+.cardContainer {
+    margin: 150px 0px 150px 0px;
+}
+
+/* Formatação da pagina de contato */
+
+.mainContato {
+    padding-top: 300px;
+    min-height: 1000px;
+}
+
+/* Formatação da pag Quem somos */
+
+
+
+.mainQuemSomos button {
+    position: relative;
+    transition: all 350ms ease-in-out;
+    background: none;
+    color: #000;
+}
+
+.mainQuemSomos button:hover {
+    position: relative;
+    color: #fff;
+    background: #000;
+    transform: translatey(0.5rem);
+    text-decoration: underline;
+}
+
+/* Formatação da pag FAQ */
+
+.mainFaq{
+    min-height: 900px;
+}
+
+.faq {
+    margin-bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.faq label {
+    color: #000;
+    font-weight: bold;
+}
+
+.question {
+    display: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+}
+
+.answer {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.question:checked {
+    position: relative;
+
+}
+
+.question:checked~.answer {
+    display: block;
+    position: relative;
+
+}
+
+/* chat formatação */
+
+#container {
+    width:750px;
+	height:800px;
+	margin:0 auto;
+	font-size:0;
+	border-radius:5px;
+    background-color: #ddd;
+
+}
+#container h1,h2,h3{
+    color: #000;
+}
+aside {
+    width:260px;
+	height:800px;
+	background-color:#3b3e49;
+	display:inline-block;
+	font-size:15px;
+	vertical-align:top
+}
+
+#container main{
+	width:480px;
+	height:800px;
+	display:inline-block;
+	font-size:15px;
+	vertical-align:top;
+}
+
+
+aside header{
+	padding:30px 20px;
+}
+aside input{
+	width:100%;
+	height:50px;
+	line-height:50px;
+	padding:0 50px 0 20px;
+	background-color:#5e616a;
+	border:none;
+	border-radius:3px;
+	color:#fff;
+	background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1940306/ico_search.png);
+	background-repeat:no-repeat;
+	background-position:170px;
+	background-size:40px;
+}
+aside input::placeholder{
+	color:#fff;
+}
+aside ul{
+	padding-left:0;
+	margin:0;
+	list-style-type:none;
+	overflow-y:scroll;
+	height:100px;
+}
+aside li{
+	padding:10px 0;
+}
+aside li:hover{
+	background-color:#5e616a;
+}
+aside li img{
+	border-radius:50%;
+	margin-left:20px;
+	margin-right:8px;
+}
+aside li div{
+	display:inline-block;
+	vertical-align:top;
+	margin-top:12px;
+}
+aside li h2{
+	font-size:14px;
+	color:#fff;
+	font-weight:normal;
+	margin-bottom:5px;
+}
+aside li h3{
+	font-size:12px;
+	color:#7e818a;
+	font-weight:normal;
+}
+
+.status{
+	width:8px;
+	height:8px;
+	border-radius:50%;
+	display:inline-block;
+	margin-right:7px;
+}
+.green{
+	background-color:#58b666;
+}
+.orange{
+	background-color:#ff725d;
+}
+.blue{
+	background-color:#6fbced;
+	margin-right:0;
+	margin-left:7px;
+}
+
+#container main header{
+	height:110px;
+	padding:30px 20px 30px 40px;
+}
+#container main header > *{
+	display:inline-block;
+	vertical-align:top;
+}
+#container main header img:first-child{
+	border-radius:50%;
+}
+#container main header img:last-child{
+	width:24px;
+	margin-top:8px;
+}
+main header div{
+	margin-left:10px;
+	margin-right:145px;
+}
+#container main header h2{
+	font-size:16px;
+	margin-bottom:5px;
+}
+#container main header h3{
+	font-size:14px;
+	font-weight:normal;
+	color:#7e818a;
+}
+
+#chat{
+	padding-left:0;
+	margin:0;
+	list-style-type:none;
+	overflow-y:scroll;
+	height:535px;
+	border-top:2px solid #fff;
+	border-bottom:2px solid #fff;
+}
+#chat li{
+	padding:10px 30px;
+}
+#chat h2,#chat h3{
+	display:inline-block;
+	font-size:13px;
+	font-weight:normal;
+}
+#chat h3{
+	color:#bbb;
+}
+#chat .entete{
+	margin-bottom:5px;
+}
+#chat .message{
+	padding:20px;
+	color:#fff;
+	line-height:25px;
+	max-width:90%;
+	display:inline-block;
+	text-align:left;
+	border-radius:5px;
+}
+#chat .me{
+	text-align:right;
+}
+#chat .you .message{
+	background-color:#58b666;
+}
+#chat .me .message{
+	background-color:#6fbced;
+}
+#chat .triangle{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 10px 10px 10px;
+}
+#chat .you .triangle{
+		border-color: transparent transparent #58b666 transparent;
+		margin-left:15px;
+}
+#chat .me .triangle{
+		border-color: transparent transparent #6fbced transparent;
+		margin-left:375px;
+}
+
+ main footer{
+	height:50px;
+	padding:20px 30px 10px 20px;
+}
+main footer textarea{
+	resize:none;
+	border:none;
+	display:block;
+	width:100%;
+	height:80px;
+	border-radius:3px;
+	padding:20px;
+	font-size:13px;
+	margin-bottom:13px;
+}
+ main footer textarea::placeholder{
+	color:#ddd;
+}
+main footer img{
+	height:30px;
+	cursor:pointer;
+}
+r main footer a{
+	text-decoration:none;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#6fbced;
+	vertical-align:top;
+	margin-left:333px;
+	margin-top:5px;
+	display:inline-block;
+}
+
+
+
+
+
+/* @media (width >= 768px) {
+    .card {
+        width: 150px !important 
+        ;
+
+    }
+    .card-body {
+        width: 150px !important;
+    }
+    .btnn{
+        
+        
+    }
+    .barraPesquisa{
+
+
+
+    }
+    
+}
+@media (width >= 450px) {
+    .card {
+        width: 50% !important;
+    }
+    
+} */
