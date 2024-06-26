@@ -48,7 +48,7 @@ hr {
 .textoMain{
     padding-top: 300px;
     padding-bottom: 300px;
-    background: url(/img/background.jpg) no-repeat center;
+    background: url(img/background.jpg) no-repeat center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
