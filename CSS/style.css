@@ -19,6 +19,7 @@ p {
 }
  
 
+
 hr {
     width: 100%;
     display: flex;
@@ -35,8 +36,10 @@ hr {
 /* Formatação Header */
 
 .barraPesquisa {
-    width: 400px;
-    
+    width:40%;
+    margin-left: 20%;
+    border-radius:90px;
+    border:1px  solid #000;
 }
 
 /* Formatação o main */
