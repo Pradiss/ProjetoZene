@@ -101,12 +101,12 @@ hr {
 }
 
 .card-body {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.87);
 }
 
 /* Formatação Das Categoria */
 .categorias {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.87);
 }
 
 .botaoCard{
@@ -116,7 +116,7 @@ hr {
 
 .botaoCard:hover{
     background-color: #000;
-    color: rgba(242, 236, 206, 0.8);
+    color: rgba(236, 201, 26, 0.8);
 }
 
 #categoria {

@@ -12,37 +12,57 @@
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg ">
-      <div class="container">
-        <a class="navbar-brand" href="index.html"><img src="img/front-log.png" width="65" alt=""></a>
-        <form class="d-flex" role="search">
-          <input class="barraPesquisa form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        </form>
-        <div class="d-flex justify-content-end ">
-          <a href="chat.html" class="me-4">
-            <h1 class="teste_anime text-dark">Chat</h1>
-          </a>
-          <div class="dropdown d-flex align-items-center">
+  <nav class="navbar bg-body-tertiary fixed-top navbar-expand-lg">
+    <div id="head" class="container">
+      <a class="navbar-brand" src="img/Subtract.svg" href="index.html"><img style="width: 80px;" src="img/Subtract.svg"
+          alt=""></a>
+      <form class=" ">
+        <input class=" barraPesquisa d-none d-md-block " type="search" placeholder="Search" aria-label="Search">
+      </form>
+      <button id="btnn" class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img style="width: 80px;" src="img/Subtract.svg" alt="">
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <!-- <a class="nav-link active" aria-current="page" href="index.html" >Home</a> -->
+            </li>
 
-            <button class="btn btn-perfil dropdown-toggle text-white" type="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              <img src="img/Icon.png " class="text-white" width="40" alt="" srcset="">
-            </button>
-            <ul class="dropdown-menu ">
-              <li><a class="dropdown-item ">
-                  <div type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Cadastre-se</div>
-                </a></li>
-              <li><a class="dropdown-item">
-                  <div type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal">Entrar</div>
-                </a></li>
-            </ul>
-          </div>
+            <li class="nav-item">
+              <a class="nav-link" href="perfil.html">Perfil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="chat.html">Chat</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <!-- <img src="img/iconeavatarperfil.jpg" style="width: 50px;"  alt=""> --><i
+                  class="bi bi-person-fill fs-3"></i>
+              </a>
+              <ul class="dropdown-menu dropdown-menu">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop">Cadastre-se</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Entrar</a>
+                </li>
+              </ul>
+
+
+          </ul>
         </div>
       </div>
-      </div>
-    </nav>
-  </header>
+    </div>
+  </nav>
 
 <section>
   <div  id="container">
