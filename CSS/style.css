@@ -162,21 +162,6 @@ a {
     width: 100px;
 }
 
-button {
-
-    width: 400px;
-    padding: 15px;
-    border-radius: 50px;
-    border: none;
-    margin: 4px;
-    transition: transform 200ms ease-in-out;
-}
-
-button:hover {
-    transform: scale(1.06);
-}
-
-
 
 .btn-perfil {
     color: none;
@@ -195,6 +180,24 @@ button:hover {
 #login a {
     text-decoration: none;
     color: #393939;
+
+}
+
+#login button {
+
+    width: 100%;
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    margin: 4px;
+    transition: transform 200ms ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.06);
+}
+#login form {
+    width: 100%;
 
 }
 
@@ -234,15 +237,6 @@ header div h1:hover {
 }
 
 
-
-/* @keyframes move {
-    0%{
-        transform: translateX(0)
-    }
-    100%{
-        transform: translateX(calc(100% - 80%));
-    }
-} */
 
 #categorias img {
     width: 250px;
