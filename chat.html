@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zene</title>
+    <link rel="icon" href="img/Subtract.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="img/front-log.png" width="65" alt=""></a>
+        <form class="d-flex" role="search">
+          <input class="barraPesquisa form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
+        <div class="d-flex justify-content-end ">
+          <a href="chat.html" class="me-4">
+            <h1 class="teste_anime text-dark">Chat</h1>
+          </a>
+          <div class="dropdown d-flex align-items-center">
+
+            <button class="btn btn-perfil dropdown-toggle text-white" type="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <img src="img/Icon.png " class="text-white" width="40" alt="" srcset="">
+            </button>
+            <ul class="dropdown-menu ">
+              <li><a class="dropdown-item ">
+                  <div type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Cadastre-se</div>
+                </a></li>
+              <li><a class="dropdown-item">
+                  <div type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal">Entrar</div>
+                </a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      </div>
+    </nav>
+  </header>
+
+<section>
+  <div  id="container">
+    <aside>
+      <header>
+        <input type="text" placeholder="search">
+      </header>
+          <ul>
+            <li>
+              <img src="img/chat_avatar_01.jpg" alt="">
+              <div>
+                <h2>Franklin</h2>
+                <h3>
+                  <span class="status orange">
+                    Offline
+                  </span>
+                </h3>
+              </div>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <img src="img/chat_avatar_01.jpg" alt="">
+              <div>
+                <h2>Franklin</h2>
+                <h3>
+                  <span class="status green">
+                    Online
+                  </span>
+                </h3>
+              </div>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <img src="img/chat_avatar_01.jpg" alt="">
+              <div>
+                <h2>Franklin</h2>
+                <h3>
+                  <span class="status orange">
+                    Offline
+                  </span>
+                </h3>
+              </div>
+            </li>
+          </ul>
+    </aside>
+    <main>
+      <header>
+        <img src="img/chat_avatar_01.jpg" alt="">
+      </header>
+      <div>
+        <h2> Conversas com Franklin</h2>
+        <h3> Online</h3>
+      </div>
+      <img src="img/ico_star.png" alt="">
+      <ul id="chat">
+        <li class="you">
+          <div class="entete">
+            <span class="status green"></span>
+            <h2>Vincent</h2>
+            <h3>10:12AM, Today</h3>
+          </div>
+          <div class="triangle"></div>
+          <div class="message">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+          </div>
+        </li>
+        <li class="me">
+          <div class="entete">
+            <h3>10:12AM, Today</h3>
+            <h2>Vincent</h2>
+            <span class="status blue"></span>
+          </div>
+          <div class="triangle"></div>
+          <div class="message">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+          </div>
+        </li>
+        <li class="me">
+          <div class="entete">
+            <h3>10:12AM, Today</h3>
+            <h2>Vincent</h2>
+            <span class="status blue"></span>
+          </div>
+          <div class="triangle"></div>
+          <div class="message">
+            OK
+          </div>
+        </li>
+        <li class="you">
+          <div class="entete">
+            <span class="status green"></span>
+            <h2>Vincent</h2>
+            <h3>10:12AM, Today</h3>
+          </div>
+          <div class="triangle"></div>
+          <div class="message">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+          </div>
+        </li>
+        <li class="me">
+          <div class="entete">
+            <h3>10:12AM, Today</h3>
+            <h2>Vincent</h2>
+            <span class="status blue"></span>
+          </div>
+          <div class="triangle"></div>
+          <div class="message">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+          </div>
+        </li>
+        <li class="me">
+          <div class="entete">
+            <h3>10:12AM, Today</h3>
+            <h2>Vincent</h2>
+            <span class="status blue"></span>
+          </div>
+          <div class="triangle"></div>
+          <div class="message">
+            OK
+          </div>
+        </li>
+        
+      </ul>
+      <footer>
+        <textarea placeholder="Mande uma mensagem"></textarea>
+        <a href="#">Enviar</a>
+      </footer>
+      
+    </main>
+  </div>
+</section>
+
+    
+<!--     
+<section class="container">
+  <div class="row">
+    <div class="col-6">
+      <div class="container">
+        <h1 class="text-center fw-bolder">Como quer falar conosco?</h1>
+        <hr class=" text-dark">
+        <section class="d-flex justify-content-around text-center pt-4">
+            <div>
+                <h2 class="text-center text-dark fw-bolder"><i class="bi bi-mailbox me-2"></i>E-mail</h2>
+                <p class="text-dark">emaildaempresa@gmail.com</p>
+            </div>
+            <div>
+                <h2 class="text-dark fw-bolder"><i class="bi bi-telephone me-2"></i>Telefone</h2>
+                <p class="text-dark">(19) 4002-8922</p>
+            </div>
+            <div>
+                <h2 class="text-dark fw-bolder"><i class="bi bi-chat-dots me-2" ></i>Chat</h2>
+                <p class="text-dark">WhatsApp - (19) 4002-8922</p>
+            </div>
+        </section>
+    </div>
+    </div>
+    <div class="col-6">
+      <div class="text-center">
+        <h1 class="fw-bolder"> Redes Sociais</h1>
+        <hr class="fw-bolder text-dark">
+        <div class="  d-flex justify-content-center ">
+          <div class="" style="font-size: 2.2rem;">
+            <a href="https://www.instagram.com/"><i class="bi bi-instagram simbols"></i></a>
+            <a href="https://x.com/?lang=pt-br"><i class="bi bi-twitter-x simbols"></i></a>
+            <a href="https://www.facebook.com/?locale=pt_BR"><i class="bi bi-facebook simbols"></i></a>
+            <a href="https://www.linkedin.com/home"><i class="bi bi-linkedin simbols"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>    
+</section> -->
+
+<!-- 
+<footer>
+  <section class="bg-black ">
+    <div class="container  text-center">
+      <span class="text-white">Todos os direitos reservados | 2024 <i class="bi bi-c-circle"></i></span>
+
+    </div>
+  </section>
+</footer>
+
+ -->
+
+
+ <!-- Modal -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-md ">
+    <div class="modal-content bg-dark">
+      <div class="modal-header">
+        <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <section id="login" class="container d-grid justify-content-center align-items-center">
+          <h2 class="p-3 ">Faça seu login na Zene</h2>
+          <div class="d-grid">
+            <button><a href="https://www.google.com/gmail/about/"><i class="bi bi-google"></i> Continuar com o
+                Google</a></button>
+            <button><a href="https://pt-br.facebook.com/login/device-based/regular/login/"><i
+                  class="bi bi-facebook"></i> Continuar com o Facebook</a></button>
+            <button><a href="https://appleid.apple.com/"><i class="bi bi-apple"></i> Continuar com a
+                Apple</a></button>
+            <button><a href="/cadastro.html"> Continuar com o seu número</a></button>
+
+            <form id="button" class=" text-white fw-bold ">
+
+              <div>
+                <label for="">Email ou nome de usuário</label>
+                <input type="email" placeholder="Email ou nome de usuário" required>
+              </div>
+
+              <div>
+                <label for="">Senha</label>
+                <input id="senha" type="password" placeholder="Senha">
+                <i id="btn-senha" onclick="mostrarSenha()"></i>
+              </div>
+              <div class="form-check form-switch">
+                <input type="checkbox" class="form-check-input">
+                <label class="form-check-label">Lembrar de mim</label>
+              </div>
+              <div>
+                <button type="submit">Conecte-se</button>
+              </div>
+
+            </form>
+
+            <div class="text-center pt-4 text-link">
+              <a href="#" class="">Esqueceu sua senha?</a>
+            </div>
+          </div>
+
+          <hr>
+          <div class="text-center py-4">
+            <p>Não tem uma conta?</p>
+            <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> Inscreva-se na Zene.</a>
+          </div>
+
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 
+Button trigger modal 
+
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+Launch static backdrop modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-md">
+    <div class="modal-content bg-dark ">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 text-white" id="staticBackdropLabel">Cadastre-se</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <section id="cadastro" class="container">
+          <form class=" fw-bold">
+            <div>
+              <label for="">Nome Completo:</label>
+              <input type="text" placeholder="Nome Completo">
+            </div>
+            <div>
+              <label for="">Telefone:</label>
+              <input type="text" placeholder="(19) 9-0808 0808">
+            </div>
+            <div>
+              <label for="">E-mail:</label>
+              <input type="email" placeholder=" Seu E-mail">
+            </div>
+            <div>
+              <label for="">Senha:</label>
+              <input type="text" placeholder="Sua Senha">
+            </div>
+            <div class="form-check form-switch">
+              <input type="checkbox" class="form-check-input">
+              <label class="form-check-label">Lembrar de mim</label>
+            </div>
+            <div>
+              <button type="submit" class="btn btn-warning">Cadastre-se</button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+<footer>
+  <section class="bg-black ">
+    <div class="container  text-center">
+      <span class="text-white">Todos os direitos reservados | 2024 <i class="bi bi-c-circle"></i></span>
+
+    </div>
+  </section>
+</footer>
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+  crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+    
+
+ 
+</body>
+
+</html>
