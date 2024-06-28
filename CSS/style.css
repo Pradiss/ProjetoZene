@@ -18,11 +18,7 @@ p {
     font-family: "Fira Sans";
 }
  
-#head{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+
 
 hr {
     width: 100%;
@@ -40,8 +36,10 @@ hr {
 /* Formatação Header */
 
 .barraPesquisa {
-    width: 400px;
-    
+    width:40%;
+    margin-left: 20%;
+    border-radius:90px;
+    border:1px  solid #000;
 }
 
 /* Formatação o main */
@@ -49,7 +47,7 @@ hr {
     padding-top: 300px;
     padding-bottom: 300px;
     background: url(/img/background.jpg) no-repeat center;
-    overflow:   ;
+    overflow: unset;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -101,12 +99,12 @@ hr {
 }
 
 .card-body {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.87);
 }
 
 /* Formatação Das Categoria */
 .categorias {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.87);
 }
 
 .botaoCard{
@@ -116,11 +114,11 @@ hr {
 
 .botaoCard:hover{
     background-color: #000;
-    color: rgba(242, 236, 206, 0.8);
+    color: rgba(236, 201, 26, 0.8);
 }
 
 #categoria {
-    background: url(/img/guitar.jpg) no-repeat center;
+    background: url(./img/guitar.jpg) no-repeat center;
     background-size: cover;
     width: 300px;
     height: 200px;
@@ -164,21 +162,6 @@ a {
     width: 100px;
 }
 
-button {
-
-    width: 400px;
-    padding: 15px;
-    border-radius: 50px;
-    border: none;
-    margin: 4px;
-    transition: transform 200ms ease-in-out;
-}
-
-button:hover {
-    transform: scale(1.06);
-}
-
-
 
 .btn-perfil {
     color: none;
@@ -191,16 +174,30 @@ button:hover {
     border-radius: 5px;
 }
 
-label,
-input {
-    padding: 9px;
-}
 
 
 /* style CSS do login  */
 #login a {
     text-decoration: none;
     color: #393939;
+
+}
+
+#login button {
+
+    width: 100%;
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    margin: 4px;
+    transition: transform 200ms ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.06);
+}
+#login form {
+    width: 100%;
 
 }
 
@@ -240,15 +237,6 @@ header div h1:hover {
 }
 
 
-
-/* @keyframes move {
-    0%{
-        transform: translateX(0)
-    }
-    100%{
-        transform: translateX(calc(100% - 80%));
-    }
-} */
 
 #categorias img {
     width: 250px;
