@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+.generosMsc {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: top;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    width: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 43px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.generosMsc:hover {
+    transform: translateY(0);
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.panel a {
+    color: #000;
+}
+
+.panel p{
+    border-bottom: 1px #ccc solid;
+    width: 100px;
+    padding: 0px;
+    margin: 0px;    
+}
+
+.containerGenero{
+    border: 1px #000 solid;
+}
+

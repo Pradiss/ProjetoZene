@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Zene</title>
-  <link rel="icon" href="/img/logo_front.png">
+  <link rel="icon" href="img/Subtract.svg">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="CSS/style.css">
@@ -13,41 +13,68 @@
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg ">
-      <div class="container">
-        <a class="navbar-brand" href="index.html"><img src="img/front-log.png" width="65" alt=""></a>
-        <form class="d-flex" role="search">
-          <input class="barraPesquisa form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        </form>
-        <div class="d-flex justify-content-end ">
-          <a href="chat.html" class="me-4">
-            <h1 class="teste_anime text-dark">Chat</h1>
-          </a>
-          <div class="dropdown d-flex align-items-center">
 
-            <button class="btn btn-perfil dropdown-toggle text-white" type="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              <img src="img/Icon.png " class="text-white" width="40" alt="" srcset="">
-            </button>
-            <ul class="dropdown-menu ">
-              <li><a class="dropdown-item ">
-                  <div type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Cadastre-se</div>
-                </a></li>
-              <li><a class="dropdown-item">
-                  <div type="button" class="" data-bs-toggle="modal" data-bs-target="#exampleModal">Entrar</div>
-                </a></li>
+  <nav class="navbar bg-body-tertiary fixed-top navbar-expand-lg">
+    <div id="head" class="container">
+      <div class="container d-flex align-items-center justify-content-between">
+        <a class="navbar-brand" src="img/Subtract.svg" href="index.html"><img style="width: 60px;"
+            src="img/Subtract.svg" alt="">
+        </a>
+        <input class="container text-center barraPesquisa" type="search" placeholder="Search" aria-label="Search">
+
+        <button id="btnn" class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img style="width: 80px;" src="img/Subtract.svg"
+                alt="">
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <!-- <a class="nav-link active" aria-current="page" href="index.html" >Home</a> -->
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="perfil.html">Perfil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="chat.html">Chat</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  <!-- <img src="img/iconeavatarperfil.jpg" style="width: 50px;"  alt=""> --><i
+                    class="bi bi-person-fill fs-5"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-menu">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" data-bs-toggle="modal"
+                      data-bs-target="#staticBackdrop">Cadastre-se</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Entrar</a>
+                  </li>
+                </ul>
+
+
             </ul>
           </div>
         </div>
       </div>
-      </div>
-    </nav>
-  </header>
+    </div>
+  </nav>
 
   <main>
-    <div class="row">
-      <div class="col-12 text-center textoMain">
+
+
+
+    <div class="text-center textoMain">
+      <div class="container">
         <h1 data-aos="fade-right" data-aos-duration="800" data-aos-delay="600" data-aos-once="true"><strong
             class="teste">Quem somos
             nós?</strong></h1>
@@ -70,8 +97,121 @@
     </div>
 
 
-    <h1 class="text-center">Quais as vantagens de ser Zene?</h1>
-    <section id="vantagensTexto" class="row row-cols-1 row-cols-md-2 row-cols-lg-1">
+    <section class="categorias pb-5">
+      <div class="container">
+        <h1 id="titulo" class="text-center text-white fw-bold">Categoria</h1>
+        <p class="text-center text-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia commodi
+          velit, nam,
+          sapiente eos iste quasi tenetur exercitationem vitae corporis, ipsa minus. Quasi nisi eius nostrum ipsa ut.
+          Quidem, culpa?</p>
+        <hr>
+        <div class="row row-cols-2 row-cols-sm-3  gap-3  text-center">
+          <div id="categoria" class=" col">
+            <a href="pagCategoria.html">
+              <p>lorem</p>
+            </a>
+          </div>
+          <div id="categoria" class=" col ">
+            <p>lorem</p>
+          </div>
+          <div id="categoria" class=" col ">
+            <p>lorem</p>
+          </div>
+          <div id="categoria" class=" col ">
+            <p>lorem</p>
+          </div>
+          <div id="categoria" class=" col ">
+            <p>lorem</p>
+          </div>
+          <div id="categoria" class=" col ">
+            <p>lorem</p>
+          </div>
+          <div id="categoria" class=" col ">
+            <p>lorem</p>
+          </div>
+          <div id="categoria" class=" col ">
+            <p>lorem</p>
+          </div>
+          <div id="categoria" class=" col ">
+            <p>lorem</p>
+          </div>
+
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="cardContainer">
+      <div class="container ">
+        <h1 class=" text-center fw-bold">Mais Populares</h1>
+        <hr class="text-black">
+        <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 ">
+          <div>
+            <div class="card pb-4">
+              <img class="rounded-top w-100" src="img/sanfoneiro-5224471_640.jpg" alt="" srcset="">
+              <div class="card-body  p-4">
+                <h5 class="card-title text-center text-light "><i class="bi bi-tag"></i>Genêro</h5>
+                <div class="d-flex justify-content-center"> <a href="#" class="btn btn-md botaoCard ">Perfil</a></div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card ">
+              <img class="rounded-top" src="img/sanfoneiro-5224471_640.jpg" alt="" srcset="">
+              <div class="card-body  p-4">
+                <h5 class="card-title text-center text-light"><i class="bi bi-tag"></i>Genêro</h5>
+                <div class="d-flex justify-content-center"> <a href="#" class="btn btn-md botaoCard ">Perfil</a></div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card ">
+              <img class="rounded-top w-100" src="img/sanfoneiro-5224471_640.jpg" alt="" srcset="">
+              <div class="card-body  p-4">
+                <h5 class="card-title text-center text-light"><i class="bi bi-tag"></i>Forró</h5>
+                <div class="d-flex justify-content-center"> <a href="#" class="btn btn-md botaoCard ">Perfil</a></div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card  ">
+              <img class="rounded-top w-100" src="img/man-890877_640.jpg" alt="" srcset="">
+              <div class="card-body  p-4">
+                <h5 class="card-title  text-center text-light"><i class="bi bi-tag"></i>Rock</h5>
+                <div class="d-flex justify-content-center"> <a href="#" class="btn btn-md botaoCard  ">Perfil</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <div id="carouselExampleAutoplaying" class="carousel slide carrossel" data-bs-ride="carousel">
+      <div class="carousel-inner ">
+        <div class="carousel-item active">
+          <img src="img/Azulcantando.svg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/dançando.svg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/vermelho.svg " class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- 
+  
+    <section id="vantagensTexto" class="">
+      <h1 class="text-center ">Quais as vantagens de ser Zene?</h1>
       <div class="col d-flex justify-content-start">
         <div class="animateTexto rounded-end" data-aos="fade-right" data-aos-duration="850" data-aos-delay="200" data-aos-once="true" data-aos-easing="ease-in-out">
           <div class="text-center text-black shadow p-3 ">
@@ -88,230 +228,84 @@
           </div>
         </div>
       </div>
-
     </section>
-
     
-          
+
+    -->
 
 
 
 
+    <section>
 
-
-
-
-    <div id="carouselExampleAutoplaying" class="carousel slide carrossel" data-bs-ride="carousel">
-      <div class="carousel-inner ">
-        <div class="carousel-item active">
-          <img src="img/banner1.svg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="img/cantorVermelho.svg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="img/dancanteAzul.svg " class="d-block w-100" alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-        data-bs-slide="prev">
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-        data-bs-slide="next">
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-
-    <section class="cardContainer">
-      <div class="container pb-5">
-        <h1 class=" text-center fw-bold pt-5" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400"
-          data-aos-once="true">Mais Populares</h1>
-        <hr class="text-black" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
-        <div class="row">
-          <div class="col-md-5 col-lg-3 col-sm-10 col-xs-12 mt-3 ">
-            <div class="card" data-aos="fade-down" data-aos-delay="900" data-aos-duration="1000" data-aos-once="true"
-              style="width: 16rem;">
-              <img class="rounded-top" src="img/sanfoneiro-5224471_640.jpg" alt="" srcset="">
-              <div class="card-body p-4">
-                <h5 class="card-title ps-5 text-light "><i class="bi bi-tag"></i>Genêro</h5>
-                <div class="d-flex justify-content-center"> <a href="#" class="btn btn-sm botaoCard">Perfil</a></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-5 col-lg-3 col-sm-10 col-xs-12 mt-3 ">
-            <div class="card" data-aos="fade-down" data-aos-delay="900" data-aos-duration="1000" data-aos-once="true"
-              style="width: 16rem;">
-              <img class="rounded-top" src="img/sanfoneiro-5224471_640.jpg" alt="" srcset="">
-              <div class="card-body  p-4">
-                <h5 class="card-title ps-5 text-light"><i class="bi bi-tag"></i>Genêro</h5>
-                <div class="d-flex justify-content-center"> <a href="#" class="btn btn-sm botaoCard ">Perfil</a></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-5 col-lg-3 col-sm- col-xs-12 mt-3 ">
-            <div class="card" data-aos="fade-down" data-aos-delay="900" data-aos-duration="1000" data-aos-once="true"
-              style="width: 16rem;">
-              <img class="rounded-top" src="img/sanfoneiro-5224471_640.jpg" alt="" srcset="">
-              <div class="card-body  p-4">
-                <h5 class="card-title ps-5 text-light"><i class="bi bi-tag"></i>Genêro</h5>
-                <div class="d-flex justify-content-center"> <a href="#" class="btn btn-sm botaoCard ">Perfil</a></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-5 col-lg-3 col-sm- col-xs-12 mt-3 ">
-            <div class="card" data-aos="fade-down" data-aos-delay="900" data-aos-duration="1000" data-aos-once="true"
-              style="width: 16rem;">
-              <img class="rounded-top" src="img/sanfoneiro-5224471_640.jpg" alt="" srcset="">
-              <div class="card-body  p-4">
-                <h5 class="card-title ps-5 text-light"><i class="bi bi-tag"></i>Genêro</h5>
-                <div class="d-flex justify-content-center"> <a href="#" class="btn btn-sm botaoCard  ">Perfil</a></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="categorias pb-5">
       <div class="container">
-        <h1 id="titulo" class="text-center text-white fw-bold" data-aos="fade" data-aos-duration="700"
-          data-aos-delay="400" data-aos-once="true">Categoria</h1>
-        <p class="text-center" data-aos="fade" data-aos-duration="700" data-aos-delay="400">Lorem ipsum dolor sit amet
-          consectetur, adipisicing elit. Officia commodi velit, nam,
-          sapiente eos iste quasi tenetur exercitationem vitae corporis, ipsa minus. Quasi nisi eius nostrum ipsa ut.
-          Quidem, culpa?</p>
-        <hr>
-        <div class="row">
-          <div class="col-6 rounded categoria " data-aos="fade-down" data-aos-duration="900" data-aos-delay="700"
-            data-aos-once="true">
-            <div class="container">
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum ipsum voluptatum in sequi suscipit
-                nesciunt quae ex autem porro! Voluptate saepe at omnis repudiandae cupiditate, aperiam eveniet ipsa
-                labore temporibus!</p>
-            </div>
-          </div>
-          <div class="col-6 rounded categoria" data-aos="fade-down" data-aos-duration="900" data-aos-delay="1000"
-            data-aos-once="true">
-            <div class="container">
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum ipsum voluptatum in sequi suscipit
-                nesciunt quae ex autem porro! Voluptate saepe at omnis repudiandae cupiditate, aperiam eveniet ipsa
-                labore temporibus!</p>
-            </div>
-          </div>
-          <div class="col-6 rounded categoria" data-aos="fade-down" data-aos-duration="900" data-aos-delay="1300"
-            data-aos-once="true">
-            <div class="container">
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum ipsum voluptatum in sequi suscipit
-                nesciunt quae ex autem porro! Voluptate saepe at omnis repudiandae cupiditate, aperiam eveniet ipsa
-                labore temporibus!</p>
-            </div>
-          </div>
-          <div class="col-6 rounded categoria" data-aos="fade-down" data-aos-duration="900" data-aos-delay="1600"
-            data-aos-once="true">
-            <div class="container">
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum ipsum voluptatum in sequi suscipit
-                nesciunt quae ex autem porro! Voluptate saepe at omnis repudiandae cupiditate, aperiam eveniet ipsa
-                labore temporibus!</p>
-            </div>
-          </div>
-          <div class="col-6 rounded categoria" data-aos="fade-down" data-aos-duration="900" data-aos-delay="1900"
-            data-aos-once="true">
-            <div class="container">
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum ipsum voluptatum in sequi suscipit
-                nesciunt quae ex autem porro! Voluptate saepe at omnis repudiandae cupiditate, aperiam eveniet ipsa
-                labore temporibus!</p>
-            </div>
-          </div>
-          <div class="col-6 rounded categoria" data-aos="fade-down" data-aos-duration="900" data-aos-delay="2100"
-            data-aos-once="true">
-            <div class="container">
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum ipsum voluptatum in sequi suscipit
-                nesciunt quae ex autem porro! Voluptate saepe at omnis repudiandae cupiditate, aperiam eveniet ipsa
-                labore temporibus!</p>
-            </div>
-          </div>
-          <div class="col-6 rounded categoria" data-aos="fade-down" data-aos-duration="900" data-aos-delay="2300"
-            data-aos-once="true">
-            <div class="container">
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum ipsum voluptatum in sequi suscipit
-                nesciunt quae ex autem porro! Voluptate saepe at omnis repudiandae cupiditate, aperiam eveniet ipsa
-                labore temporibus!</p>
-            </div>
-          </div>
-          <div class="col-6 rounded categoria" data-aos="fade-down" data-aos-duration="900" data-aos-delay="2600"
-            data-aos-once="true">
-            <div class="container">
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum ipsum voluptatum in sequi suscipit
-                nesciunt quae ex autem porro! Voluptate saepe at omnis repudiandae cupiditate, aperiam eveniet ipsa
-                labore temporibus!</p>
-            </div>
-          </div>
-          <div class="col-6 rounded categoria" data-aos="fade-down" data-aos-duration="900" data-aos-delay="2900"
-            data-aos-once="true">
-            <div class="container">
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum ipsum voluptatum in sequi suscipit
-                nesciunt quae ex autem porro! Voluptate saepe at omnis repudiandae cupiditate, aperiam eveniet ipsa
-                labore temporibus!</p>
-            </div>
-          </div>
+        <div class="row contatoTexto ">
 
-        </div>
-      </div>
-    </section>
+          <div class="col-lg-6 col-md-12 textoContato text-center py-5 d-flex flex-column justify-content-center">
+            <h1 class=" fw-bolder">Como quer falar conosco?</h1>
 
-    <div class="container">
-      <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 contatoTexto">
-        <div class="col d-flex align-items-center">
-          <div class="textoContato text-center">
-            <h1 class="ps-5 fw-bolder">Como quer falar conosco?</h1>
-            <div class="d-flex justify-content-center">
-              <div>
-                <h2 class=" text-dark fw-bolder">E-mail</h2>
+            <div class="row py-5">
+              <div class="col-12 col-md-4 ">
+                <h2 class="text-dark fw-bolder">E-mail</h2>
                 <p class="text-dark">emaildaempresa@gmail.com</p>
               </div>
-              <div class="ps-3">
+              <div class="col-12 col-md-4 ps-3">
                 <h2 class="text-dark fw-bolder">Telefone</h2>
                 <p class="text-dark">(19) 4002-8922</p>
               </div>
-              <div class="ps-4">
+              <div class="col-12 col-md-4 ps-4">
                 <h2 class="text-dark fw-bolder">Chat</h2>
                 <p class="text-dark text-center">(19) 4002-8922</p>
               </div>
             </div>
           </div>
-        </div>
-        <div class="ps-5 mt-5 col">
-          <h1 class="fw-bold text-center">Perguntas Frequentes</h1>
-          <div class="faq">
-            <input class="question" type="checkbox" id="question1">
-            <label for="question1">O que é o Zene?</label>
-            <div class="answer">Zene é um serviço inovador para músicos e contratantes. Criamos um ambiente onde
-              facilitamos o contato entre essas duas partes de maneira segura.</div>
-          </div>
 
-          <div class="faq">
-            <input class="question" type="checkbox" id="question2">
-            <label for="question2">Como posso divulgar meu trabalho e fazer parte da comunidade?</label>
-            <div class="answer">Basta apenas criar o seu perfil com suas informações corretas e já estará pronto para
-              acessar o nosso serviço.</div>
-          </div>
+          <div class="mt-5 col-lg-6 col-md-12 col-sm-0 px-4 px-0 pb-4">
+            <h1 class="fw-bold text-center">Perguntas Frequentes</h1>
+            <div class="faq" data-aos="fade-left" data-aos-duration="800" data-aos-delay="600"
+              data-aos-easing="ease-in-out" data-aos-once="true">
+              <input class="question" type="checkbox" id="question1">
+              <label for="question1">O que é o Zene?</label>
+              <div class="answer">Zene é um serviço inovador para músicos e contratantes. Criamos um ambiente onde
+                facilitamos o contato entre essas duas partes de maneira segura.</div>
+            </div>
 
-          <div class="faq">
-            <input class="question" type="checkbox" id="question3">
-            <label for="question3">Como posso aparecer nos mais populares?</label>
-            <div class="answer">Para aparecer nos mais populares, seu perfil precisará ser um dos mais requisitados da
-              nossa plataforma.</div>
-          </div>
+            <div class="faq" data-aos="fade-left" data-aos-duration="800" data-aos-delay="800"
+              data-aos-easing="ease-in-out" data-aos-once="true">
+              <input class="question" type="checkbox" id="question2">
+              <label for="question2">Como posso divulgar meu trabalho e fazer parte da comunidade?</label>
+              <div class="answer">Basta apenas criar o seu perfil com suas informações corretas e já estará pronto para
+                acessar o nosso serviço.</div>
+            </div>
 
-          <div class="faq">
-            <input class="question" type="checkbox" id="question4">
-            <label for="question4">Como farei os pagamentos?</label>
-            <div class="answer">No nosso site já existe uma aba com as opções de pagamento mais populares.</div>
+            <div class="faq" data-aos="fade-left" data-aos-duration="800" data-aos-delay="1000"
+              data-aos-easing="ease-in-out" data-aos-once="true">
+              <input class="question" type="checkbox" id="question3">
+              <label for="question3">Como posso aparecer nos mais populares?</label>
+              <div class="answer">Para aparecer nos mais populares, seu perfil precisará ser um dos mais requisitados da
+                nossa plataforma.</div>
+            </div>
+
+            <div class="faq" data-aos="fade-left" data-aos-duration="800" data-aos-delay="1200"
+              data-aos-easing="ease-in-out" data-aos-once="true">
+              <input class="question" type="checkbox" id="question4">
+              <label for="question4">Como farei os pagamentos?</label>
+              <div class="answer">No nosso site já existe uma aba com as opções de pagamento mais populares.</div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
   </main>
 
   <footer>
@@ -323,7 +317,6 @@
     </section>
   </footer>
 
-
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-md ">
@@ -333,54 +326,54 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <section id="login" class="container d-grid justify-content-center align-items-center">
-            <h2 class="p-3 ">Faça seu login na Zene</h2>
-            <div class="d-grid">
-              <button><a href="https://www.google.com/gmail/about/"><i class="bi bi-google"></i> Continuar com o
-                  Google</a></button>
-              <button><a href="https://pt-br.facebook.com/login/device-based/regular/login/"><i
-                    class="bi bi-facebook"></i> Continuar com o Facebook</a></button>
-              <button><a href="https://appleid.apple.com/"><i class="bi bi-apple"></i> Continuar com a
-                  Apple</a></button>
-              <button><a href="/cadastro.html"> Continuar com o seu número</a></button>
+          <section id="login" class="container ">
+            <h2 class="p-3 text-light">Faça seu login na Zene</h2>
 
-              <form id="button" class=" text-white fw-bold ">
+            <button><a href="https://www.google.com/gmail/about/"><i class="bi bi-google"></i> Continuar com o
+                Google</a></button>
+            <button><a href="https://pt-br.facebook.com/login/device-based/regular/login/"><i
+                  class="bi bi-facebook"></i> Continuar com o Facebook</a></button>
+            <button><a href="https://appleid.apple.com/"><i class="bi bi-apple"></i> Continuar com a
+                Apple</a></button>
+            <button><a href="/cadastro.html"> Continuar com o seu número</a></button>
 
-                <div>
-                  <label for="">Email ou nome de usuário</label>
-                  <input type="email" placeholder="Email ou nome de usuário" required>
-                </div>
+            <form id="button" class="fw-bold  text-light">
 
-                <div>
-                  <label for="">Senha</label>
-                  <input id="senha" type="password" placeholder="Senha">
-                  <i id="btn-senha" onclick="mostrarSenha()"></i>
-                </div>
-                <div class="form-check form-switch">
-                  <input type="checkbox" class="form-check-input">
-                  <label class="form-check-label">Lembrar de mim</label>
-                </div>
-                <div>
-                  <button type="submit">Conecte-se</button>
-                </div>
-
-              </form>
-
-              <div class="text-center pt-4 text-link">
-                <a href="#" class="">Esqueceu sua senha?</a>
+              <div>
+                <label for="">Email ou nome de usuário</label>
+                <input type="email" placeholder="Email ou nome de usuário" required>
               </div>
-            </div>
 
-            <hr>
-            <div class="text-center py-4">
-              <p>Não tem uma conta?</p>
-              <a href="/cadastro.html"> Inscreva-se na Zene.</a>
-            </div>
+              <div>
+                <label for="">Senha</label>
+                <input id="senha" type="password" placeholder="Senha">
+                <i id="btn-senha" onclick="mostrarSenha()"></i>
+              </div>
+              <div class="form-check form-switch d-flex align-items-center">
+                <input type="checkbox" class="form-check-input">
+                <label class="form-check-label">Lembrar de mim</label>
+              </div>
+              <div>
+                <button type="submit">Conecte-se</button>
+              </div>
 
-          </section>
+            </form>
+
+            <div class="text-center p-3 text-link">
+              <a href="#" class="">Esqueceu sua senha?</a>
+            </div>
         </div>
+
+        <hr>
+        <div class="text-center mb-4 text-link">
+          <p>Não tem uma conta?</p>
+          <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> Inscreva-se na Zene.</a>
+        </div>
+
+        </section>
       </div>
     </div>
+  </div>
   </div>
 
   <!-- 
@@ -412,13 +405,13 @@
               </div>
               <div>
                 <label for="">E-mail:</label>
-                <input type="email" placeholder=" Seu E-mail">
+                <input type="email" placeholder=" Seu E-mail" required>
               </div>
               <div>
                 <label for="">Senha:</label>
                 <input type="text" placeholder="Sua Senha">
               </div>
-              <div class="form-check form-switch">
+              <div class="form-check form-switch d-flex align-items-center ">
                 <input type="checkbox" class="form-check-input">
                 <label class="form-check-label">Lembrar de mim</label>
               </div>
@@ -431,7 +424,7 @@
       </div>
     </div>
   </div>
-
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
